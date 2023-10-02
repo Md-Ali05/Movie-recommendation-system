@@ -19,7 +19,7 @@ This project implements a content-based movie recommender system using a Kaggle 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/content-based-movie-recommender.git
+    git clone https://github.com/Md-Ali05/Movie-recommendation-system.git
     cd content-based-movie-recommender
     ```
 

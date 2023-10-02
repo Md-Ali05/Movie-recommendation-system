@@ -7,6 +7,7 @@ This project implements a content-based movie recommender system using a Kaggle 
 ```
  ┣ data
  ┃  ┗ movies.csv               # Kaggle dataset containing movie information
+ ┃  ┗ credits.csv              # Kaggle dataset containing movie credits
  ┣ notebooks
  ┃  ┗ Movie Recommender.ipynb  # Colab notebook for data exploration        
  ┣  app.py                     # Streamlit application for UI

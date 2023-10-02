@@ -1,0 +1,23 @@
+
+```plaintext
+numpy
+pandas
+nltk
+scikit-learn
+```
+
+To install these packages, you can use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Additionally, `nltk` is a natural language processing toolkit, and you may need to download the Porter Stemmer from `nltk`. You can do this using the following Python code:
+
+```python
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+```
+
+Make sure to run this code in your Python environment before using the Porter Stemmer from `nltk`.

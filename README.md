@@ -5,13 +5,15 @@ This project implements a content-based movie recommender system using a Kaggle 
 ## Project Structure
 
 ```
-├── data
-│   └── movies.csv                # Kaggle dataset containing movie information
-├── notebooks
-│   └── Movie Recommender.ipynb   # Colab notebook for data exploration
-│   └── movies.pkl and model.pkl  # picke file for model implementation
-├── app.py                        # Streamlit application for UI
-└── README.md                     # Project documentation
+ ┣ data
+ ┃  ┗ movies.csv               # Kaggle dataset containing movie information
+ ┣ notebooks
+ ┃  ┗ Movie Recommender.ipynb  # Colab notebook for data exploration        
+ ┣  app.py                     # Streamlit application for UI
+ ┣  pickle
+ ┃  ┗ movies.pkl               # List of movies converted to pickle file for model implementation 
+ ┃  ┗ similarity.pkl           # Similarity model for to pass the selected movie for recommendation
+ ┗  README.md                  # Project documentation
 ```
 
 ## Setup and Usage
